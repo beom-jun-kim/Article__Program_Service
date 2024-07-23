@@ -1,0 +1,25 @@
+// 입력칸
+@mixin inputArea {
+  width: 100%;
+  padding: 10px 20px;
+  background: #f8f8f8;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+
+  &:focus {
+    border: 1px solid #2799a3;
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  input {
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}

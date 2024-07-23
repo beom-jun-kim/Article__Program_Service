@@ -1,0 +1,122 @@
+{
+  "components": {
+    "header": {
+      "menu": {
+        "manage": "Manage",
+        "nawriter": "NAWriter",
+        "attached": "Find Ref.",
+        "myNews": "My News",
+        "setting": "Setting"
+      },
+      "lngBtnText": "A",
+      "lngBtnTooltip": "Change Language",
+      "themeBtnTooltip": "Theme",
+      "logoutBtnTooltip": "Logout",
+      "login" : "Login",
+      "join" : "Join",
+      "find your email/password" :"Find your email/password",
+      "name/ko" : "Name (ko)",
+      "name/en" : "Name (en)",
+      "birth" : "Birth Date",
+      "men" : "Men",
+      "woman" : "Woman",
+      "select country" : "Select country",
+      "phone" : "Phone number",
+      "authentication number request" : "Authentication number request",
+      "authentication number chk" : "Check authentication number",
+      "authentication number" : "Authentication number",
+      "resend" : "Resend",
+      "findId" : "Find Id",
+      "findEmail" : "Find Email",
+      "findPassword" : "Find Password"
+    },
+    "grid": {
+      "noData": "No Data.",
+      "save": "Save",
+      "close": "Close",
+      "filter": "Filter",
+      "reset": "Reset Filter",
+      "search": "Search"
+    },
+    "pagination": {
+      "items": "Items",
+      "of": "{{b}} of {{a}}"
+    },
+    "writerForm": {
+      "article form" : "Article Type",
+      "keyword" : "Keyword",
+      "highlight phrase" : "Highlight Text",
+      "body text" : "Body Text",
+      "reset" : "Reset",
+      "add" : "Add",
+      "temporary storage" : "Temporary Save",
+      "create an article" : "Create an Articles",
+      "search word" : "Search Word",
+      "news registration" : "News Registration",
+      "representative text" : "Representative Text",
+      "article text" : "Article Text",
+      "title" : "Title",
+      "content of the article" : "Content of The Article",
+      "no article content" : "No Article Content.",
+      "please write the content" : "Please write the content",
+      "go to attached materials" : "Go to attached materials",
+      "register my news" : "Register My News",
+      "back" : "Back",
+      "list of attached materials" : "List of attached materials",
+      "relevance" : "Relevance",
+      "find ref" : "Find Ref.",
+      "find more" : "Find more",
+      "summarize" : "Summarize",
+      "summary" : "Summary",
+      "go to create ai articles" : "Go to Create AI articles",
+      "plz btn click" : "Click the Load Attachments button.",
+      "details" : "Details",
+      "view all" : "View all",
+      "relevance upper" : "Relevance upper",
+      "relevance middle" : "Relevance middle",
+      "relevance lower" : "Relevance lower",
+      "view attached file details" : "View attached file details",
+      "close" : "Close",
+      "select your company": "Select your company",
+      "temporary article modifications" : "Temporary article modifications",
+      "delete" : "Delete",
+      "temporary article list" : "Temporary article list",
+      "AI article list" : "AI article list",
+      "create a new" : "Create a new",
+      "There are no draft articles saved" : "There are no draft articles saved",
+      "There are no AI articles saved yet" : "There are no AI articles saved yet"
+    },
+    "myNews" : {
+      "search" : "Search",
+      "no date" : "No data."       
+    },
+    "setting" : {
+      "userInfo" : "User Information",
+      "username" : "Username",
+      "user email" : "Email",
+      "current password" : "Current Password",
+      "new password" : "New Password",
+      "new password confirmation" : "New Password Confirmation",
+      "correction" : "Correction"
+    }
+  },
+  "pages": {
+    "manage": {
+      "employee": {
+        "title": "Employee Information Inquiry"
+      },
+      "department": {
+        "title": "Department Information Inquiry"
+      },
+      "signup-approval": {
+        "title": "Sign-Up Approval"
+      },
+      "customer": {
+        "title": "Customer Company Information"
+      },
+      "representative": {
+        "title": "Customer Company Representative Information"
+      }
+    }
+  }
+}

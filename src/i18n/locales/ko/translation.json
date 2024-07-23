@@ -1,0 +1,122 @@
+{
+  "components": {
+    "header": {
+      "menu": {
+        "manage": "관리자전용",
+        "nawriter": "기사만들기",
+        "attached": "첨부자료찾기",
+        "myNews": "내 뉴스",
+        "setting": "사용자정보"
+      },
+      "lngBtnText": "가",
+      "lngBtnTooltip": "언어 변경",
+      "themeBtnTooltip": "테마",
+      "logoutBtnTooltip": "로그아웃",
+      "login" : "로그인",
+      "join" : "회원가입",
+      "find your email/password" :"E-mail/비밀번호 찾기",
+      "name/ko" : "이름 (한글)",
+      "name/en" : "이름 (영문)",
+      "birth" : "생년 월일",
+      "men" : "남자",
+      "woman" : "여자",
+      "select country" : "국가 선택",
+      "phone" : "전화번호",
+      "authentication number request" : "인증번호 요청",
+      "authentication number chk" : "인증번호 확인",
+      "authentication number" : "인증번호",
+      "resend" : "재발송",
+      "findId" : "아이디 찾기",
+      "findEmail" : "이메일 찾기",
+      "findPassword" : "비밀번호 찾기"
+    },
+    "grid": {
+      "noData": "조회된 데이터가 없습니다.",
+      "save": "저장",
+      "close": "닫기",
+      "filter": "필터",
+      "reset": "필터 초기화",
+      "search": "검색"
+    },
+    "pagination": {
+      "items": "항목",
+      "of": "{{a}}건 중 {{b}}"
+    },
+    "writerForm": {
+      "article form" : "기사 형태",
+      "keyword" : "키워드",
+      "highlight phrase" : "하이라이트 문구",
+      "body text" : "본문 문구",
+      "reset" : "초기화",
+      "add" : "추가",
+      "temporary storage" : "임시 저장",
+      "create an article" : "기사 만들기",
+      "search word" : "검색어", 
+      "news registration" : "뉴스 등록",
+      "representative text" : "대표문장" ,
+      "article text" : "기사 내용",
+      "title" : "제목",
+      "content of the article" : "기사 내용 정리",
+      "no article content" : "기사 내용이 없습니다.",
+      "please write the content" : "내용을 작성해 주세요",
+      "go to attached materials" : "첨부 자료 찾으러가기",
+      "register my news" : "My News 등록하기",
+      "back" : "뒤로가기",
+      "list of attached materials" : "첨부 자료 리스트",
+      "relevance" : "관련도 필터링",
+      "find ref" : "첨부자료 불러오기",
+      "find more" : "더 불러오기",
+      "summarize" : "요약하기",
+      "summary" : "요약 정리",
+      "go to create ai articles" : "기사 만들러 가기",
+      "plz btn click" : "첨부자료 불러오기 버튼을 클릭하세요.",
+      "details" : "자세히",
+      "view all" : "전체 보기",
+      "relevance upper" : "관련도 상",
+      "relevance middle" : "관련도 중",
+      "relevance lower" : "관련도 하",
+      "view attached file details" : "첨부파일 상세보기",
+      "close" : "닫기",
+      "select your company": "소속 회사 선택",
+      "temporary article list" : "임시 기사 목록",
+      "create a new" : "새로 만들기",
+      "There are no draft articles saved" : "저장된 임시 기사가 없습니다",
+      "temporary article modifications" : "임시 기사 수정",
+      "delete" : "삭제",
+      "AI article list" : "AI 기사 목록",
+      "There are no AI articles saved yet" : "아직 저장된 AI 기사가 없습니다."
+    },          
+    "myNews" : {
+      "search" : "검색",
+      "no date" : "데이터가 없습니다."
+    },
+    "setting" : {
+      "userInfo" : "사용자 정보",
+      "username" : "이름",
+      "user email" : "이메일",
+      "current password" : "현재 비밀번호",
+      "new password" : "새 비밀번호",
+      "new password confirmation" : "새 비밀번호 확인",
+      "correction" : "수정"
+    }
+  },
+  "pages": {
+    "manage": {
+      "employee": {
+        "title": "사원 정보 조회"
+      },
+      "department": {
+        "title": "부서 정보 조회"
+      },
+      "signup-approval": {
+        "title": "회원 가입 승인"
+      },
+      "customer": {
+        "title": "고객사 정보"
+      },
+      "representative": {
+        "title": "고객사 별 담당자 정보"
+      }
+    }
+  }
+}

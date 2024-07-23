@@ -1,0 +1,175 @@
+@import '@/assets/scss/mixin.scss';
+
+@mixin label {
+  font-size: 15px;
+  color: #2799a3;
+  cursor: pointer;
+}
+
+// body {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100vh;
+//   padding: 70px 0;
+// }
+
+.logoImage {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+// 입력폼
+.inputForm {
+  border: none;
+  outline: none;
+  width: 380px;
+  margin: 10px auto;
+
+  & > ul > li {
+    margin-bottom: 5px;
+  }
+
+  // 전송버튼
+  .submitButton {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 4px;
+    background-color: #2799a3;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+// 입력칸 박스
+.inputBox {
+  display: block;
+  position: relative;
+  width: 100%;
+
+  svg {
+    position: absolute;
+    top: 15px;
+    left: 14px;
+  }
+
+  input {
+    @include inputArea;
+    padding-left: 38px;
+  }
+
+  &.email,
+  &.password {
+    margin-bottom: 5px;
+  }
+}
+
+// 로그인
+.autoLogin {
+  margin-bottom: 20px;
+  input[type='checkbox'] {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  label {
+    @include label;
+  }
+}
+.company {
+  @include label;
+}
+
+// 로그인 - 회원가입 / 아이디비번찾기 문구
+.loginUnderText {
+  text-align: center;
+  a {
+    color: #2799a3;
+    text-decoration: none;
+    font-size: 17px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  i {
+    margin: 0 5px;
+    color: #ccc;
+  }
+}
+
+// 소속기관
+.companySelect {
+  @include inputArea;
+}
+
+// 생년월일 선택
+.birthDaySelect {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background: transparent;
+  color: transparent;
+  width: 90%;
+  height: 100%;
+
+  // input type="date"의 기본제공되는 달력 아이콘 없애기
+  &::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: transparent;
+    cursor: pointer;
+  }
+}
+
+// 성별 선택
+.gender {
+  display: flex;
+  width: 100%;
+
+  li {
+    width: 50%;
+
+    label {
+      @include inputArea;
+      display: block;
+      text-align: center;
+      cursor: pointer;
+
+      input {
+        display: none;
+      }
+    }
+  }
+}
+
+// 인증번호 확인
+.verificationCode {
+  input {
+    width: 69%;
+    padding: 10px 14px;
+  }
+
+  button {
+    width: 30%;
+    background: #fd6363;
+    color: #fff;
+    border-radius: 4px;
+    line-height: 17px;
+  }
+}
+
+// 팝업창
+.popup {
+  padding: 100px 0;
+  text-align: center;
+  svg {
+    margin: 0 auto 50px;
+  }
+}
